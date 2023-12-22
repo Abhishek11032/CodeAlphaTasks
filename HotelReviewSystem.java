@@ -67,7 +67,7 @@ public class HotelReviewSystem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Sample hotels
+        
         hotels.add(new Hotel("Hotel A"));
         hotels.add(new Hotel("Hotel B"));
 
@@ -79,7 +79,7 @@ public class HotelReviewSystem {
             System.out.print("Enter your choice: ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
